@@ -26,7 +26,7 @@ type application struct {
 
 func main() {
 	addr := flag.String("addr", ":4000", "Http network address")
-	dsn := flag.String("dsn", "web:1234@/AITU_News?parseTime=true", "MySQL data source name")
+	dsn := flag.String("b5usbv2gw7cilu8nstig-mysql.services.clever-cloud.com", "web:UFHFl9q5lVWZoq7TxDaz@/b5usbv2gw7cilu8nstig?parseTime=true", "mysql -h b5usbv2gw7cilu8nstig-mysql.services.clever-cloud.com -P 3306 -u udgznmurv2exq2jr -p b5usbv2gw7cilu8nstig")
 	secret := flag.String("secret", "s6Ndh+pPbnzHbS*+9Pk8qGWhTzbpa@ge", "Secret key")
 	flag.Parse()
 
